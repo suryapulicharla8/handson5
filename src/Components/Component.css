@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+.heading {
+    color: brown;
+}
+.counter {
+    color: aqua;
+    /* background-color: blueviolet; */
+    font-size: 1.5rem;
+    /* border-radius: 0.5rem; */
+}
+.btn {
+    color: black;
+    background-color: gold;
+    border-radius: 0.5rem;
+    font-size: 1.5rem; 
+
+
+
+}
