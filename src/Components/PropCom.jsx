@@ -1,14 +1,17 @@
-import React, { Component } from 'react'
-import './Component.css'
+import React, { PureComponent } from 'react'
+import "./Component.css"
 
- class PropCom extends Component {
-  render() {
+class PropComp extends PureComponent {
+render(){
+    // console.warn("Prop Component Check-Rendering")
     return (
-      <div>
-        <h1 className='heading'>Prop Component render by pure Component</h1>
-        <p className='counter'>Counter:{this.props.counter}</p>
-      </div>
-    )
-  }
+        <div>
+            <h1 className='heading'>Prop Component rendered by Pure Component</h1>
+            <p className='counter'>Counter:{this.props.count+1}</p>
+        </div>
+      )
 }
-export default PropCom
+// return 
+}
+
+export default PropComp

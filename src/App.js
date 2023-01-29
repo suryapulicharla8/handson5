@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
-import './App.css';
-import HoverCom from './Components/HoverCom';
-import PureCom from './Components/PureCom';
+import React from 'react'
+import './App.css'
+import HoverCom from './Components/HoverCom'
+import PureCom from './Components/PureCom'
 
 function App() {
   return (
